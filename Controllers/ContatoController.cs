@@ -15,11 +15,16 @@ namespace projeto_mvc.Controllers
         {
             _context = context;
         }
-        
+
         public IActionResult Index()
         {
             var contatos = _context.Contatos.ToList();
             return View(contatos);
+        }
+        
+        public IActionResult Criar()
+        {
+            return View();
         }
     }
 }
