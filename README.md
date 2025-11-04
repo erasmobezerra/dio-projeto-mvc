@@ -62,6 +62,8 @@ dotnet watch run
 # A aplicação abrirá automaticamente no seu navegador padrão.
 ```
 
+![alt text](image.png)
+
 ## 🤝 Como contribuir
 
 1. Crie uma branch com nome descritivo: `feature/minha-mudanca`.  
